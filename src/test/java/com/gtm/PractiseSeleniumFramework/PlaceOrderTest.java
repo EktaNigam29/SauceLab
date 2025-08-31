@@ -16,7 +16,7 @@ public class PlaceOrderTest extends TestSetup {
 	@Test(dataProviderClass = Data.class, dataProvider = "data")
 	public void verifyPlaceOrder(String UserName, String Password, String ProductPageHeader, String Products) {
 
-		ExtentReportManager.getExtentTest().assignAuthor("GTM");
+		ExtentReportManager.getExtentTest().assignAuthor("Ekta N");
 		LoginPage login = new LoginPage();
 		Productpage productPage = login.doLoginWithValidCredentials(UserName, Password);
 		Assert.assertTrue(productPage.isDisplayed());
