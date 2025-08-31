@@ -2,16 +2,70 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-30T15:03:14 IST" name="Suite" finished-at="2025-08-30T15:03:26 IST" duration-ms="12332">
+  <suite started-at="2025-08-30T17:50:56 IST" name="Suite" finished-at="2025-08-30T17:51:59 IST" duration-ms="63507">
     <groups>
     </groups>
-    <test started-at="2025-08-30T15:03:14 IST" name="Test" finished-at="2025-08-30T15:03:26 IST" duration-ms="12332">
-      <class name="com.gtm.PractiseSeleniumFramework.PlaceOrderTest">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.gtm.PractiseSeleniumFramework.PlaceOrderTest@72cf2de5]" started-at="2025-08-30T15:03:14 IST" name="beforeMethod" finished-at="2025-08-30T15:03:21 IST" duration-ms="6631" status="PASS">
+    <test started-at="2025-08-30T17:50:56 IST" name="Test" finished-at="2025-08-30T17:51:59 IST" duration-ms="63507">
+      <class name="com.gtm.PractiseSeleniumFramework.SauceLabsLoginTest">
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:com.gtm.PractiseSeleniumFramework.SauceLabsLoginTest@129b4fe2]" started-at="2025-08-30T17:50:55 IST" name="testSetup" finished-at="2025-08-30T17:50:56 IST" duration-ms="863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.gtm.PractiseSeleniumFramework.SauceLabsLoginTest@129b4fe2]" started-at="2025-08-30T17:50:56 IST" name="beforeMethod" finished-at="2025-08-30T17:51:36 IST" duration-ms="40072" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyPlaceOrder(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.gtm.PractiseSeleniumFramework.PlaceOrderTest@72cf2de5]" started-at="2025-08-30T15:03:21 IST" name="verifyPlaceOrder" data-provider="data" finished-at="2025-08-30T15:03:22 IST" duration-ms="1747" status="PASS">
+        <test-method signature="verifyLoginValidCredentials(java.lang.String,java.lang.String)[pri:0, instance:com.gtm.PractiseSeleniumFramework.SauceLabsLoginTest@129b4fe2]" started-at="2025-08-30T17:51:36 IST" name="verifyLoginValidCredentials" data-provider="data" finished-at="2025-08-30T17:51:41 IST" duration-ms="4544" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginValidCredentials -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.gtm.PractiseSeleniumFramework.SauceLabsLoginTest@129b4fe2]" started-at="2025-08-30T17:51:41 IST" name="teardown" finished-at="2025-08-30T17:51:45 IST" duration-ms="3793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.gtm.PractiseSeleniumFramework.SauceLabsLoginTest@129b4fe2]" started-at="2025-08-30T17:51:45 IST" name="beforeMethod" finished-at="2025-08-30T17:51:55 IST" duration-ms="9931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyLoginWithInValidCredentials(java.lang.String,java.lang.String)[pri:0, instance:com.gtm.PractiseSeleniumFramework.SauceLabsLoginTest@129b4fe2]" started-at="2025-08-30T17:51:55 IST" name="verifyLoginWithInValidCredentials" data-provider="data" finished-at="2025-08-30T17:51:56 IST" duration-ms="1443" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ABC]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[XYZ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInValidCredentials -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.gtm.PractiseSeleniumFramework.SauceLabsLoginTest@129b4fe2]" started-at="2025-08-30T17:51:56 IST" name="teardown" finished-at="2025-08-30T17:51:59 IST" duration-ms="3423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.gtm.PractiseSeleniumFramework.SauceLabsLoginTest -->
+      <class name="com.gtm.PractiseSeleniumFramework.PlaceOrderTest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.gtm.PractiseSeleniumFramework.PlaceOrderTest@72cf2de5]" started-at="2025-08-30T17:50:56 IST" name="beforeMethod" finished-at="2025-08-30T17:51:17 IST" duration-ms="21104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyPlaceOrder(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.gtm.PractiseSeleniumFramework.PlaceOrderTest@72cf2de5]" started-at="2025-08-30T17:51:17 IST" name="verifyPlaceOrder" data-provider="data" finished-at="2025-08-30T17:51:24 IST" duration-ms="6198" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,65 +91,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPlaceOrder -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.gtm.PractiseSeleniumFramework.PlaceOrderTest@72cf2de5]" started-at="2025-08-30T15:03:22 IST" name="teardown" finished-at="2025-08-30T15:03:23 IST" duration-ms="939" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.gtm.PractiseSeleniumFramework.PlaceOrderTest@72cf2de5]" started-at="2025-08-30T17:51:24 IST" name="teardown" finished-at="2025-08-30T17:51:29 IST" duration-ms="5238" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.gtm.PractiseSeleniumFramework.PlaceOrderTest -->
-      <class name="com.gtm.PractiseSeleniumFramework.SauceLabsLoginTest">
-        <test-method is-config="true" signature="testSetup()[pri:0, instance:com.gtm.PractiseSeleniumFramework.SauceLabsLoginTest@129b4fe2]" started-at="2025-08-30T15:03:14 IST" name="testSetup" finished-at="2025-08-30T15:03:14 IST" duration-ms="149" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSetup -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.gtm.PractiseSeleniumFramework.SauceLabsLoginTest@129b4fe2]" started-at="2025-08-30T15:03:14 IST" name="beforeMethod" finished-at="2025-08-30T15:03:17 IST" duration-ms="3450" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyLoginValidCredentials(java.lang.String,java.lang.String)[pri:0, instance:com.gtm.PractiseSeleniumFramework.SauceLabsLoginTest@129b4fe2]" started-at="2025-08-30T15:03:17 IST" name="verifyLoginValidCredentials" data-provider="data" finished-at="2025-08-30T15:03:18 IST" duration-ms="1003" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[standard_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginValidCredentials -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.gtm.PractiseSeleniumFramework.SauceLabsLoginTest@129b4fe2]" started-at="2025-08-30T15:03:18 IST" name="teardown" finished-at="2025-08-30T15:03:19 IST" duration-ms="940" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.gtm.PractiseSeleniumFramework.SauceLabsLoginTest@129b4fe2]" started-at="2025-08-30T15:03:19 IST" name="beforeMethod" finished-at="2025-08-30T15:03:25 IST" duration-ms="5276" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyLoginWithInValidCredentials(java.lang.String,java.lang.String)[pri:0, instance:com.gtm.PractiseSeleniumFramework.SauceLabsLoginTest@129b4fe2]" started-at="2025-08-30T15:03:25 IST" name="verifyLoginWithInValidCredentials" data-provider="data" finished-at="2025-08-30T15:03:25 IST" duration-ms="360" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ABC]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[XYZ]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginWithInValidCredentials -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.gtm.PractiseSeleniumFramework.SauceLabsLoginTest@129b4fe2]" started-at="2025-08-30T15:03:25 IST" name="teardown" finished-at="2025-08-30T15:03:26 IST" duration-ms="1249" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.gtm.PractiseSeleniumFramework.SauceLabsLoginTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
